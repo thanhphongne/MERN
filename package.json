@@ -1,0 +1,26 @@
+{
+    "name": "API",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "prettier --tab-width 4 --single-quote --trailing-comma all --write package.json models/*.js routes/*.js",
+        "start": "nodemon index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "crypto-js": "^4.1.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.0.14",
+        "nodemon": "^2.0.15",
+        "stripe": "^8.191.0"
+    },
+    "devDependencies": {
+        "prettier": "^2.5.0"
+    }
+}
